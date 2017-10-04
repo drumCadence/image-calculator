@@ -41,8 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculators\CalculatorA.cs" />
+    <Compile Include="Calculators\CalculatorB.cs" />
+    <Compile Include="Calculators\CalculatorBase.cs" />
+    <Compile Include="Calculators\CalculatorFactory.cs" />
+    <Compile Include="Calculators\ICalculator.cs" />
     <Compile Include="ImageService.cs" />
     <Compile Include="Models\Vertex.cs" />
+    <Compile Include="Models\VertexesResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
