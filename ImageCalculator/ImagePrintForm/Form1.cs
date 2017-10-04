@@ -38,45 +38,45 @@ namespace ImagePrintForm
             int i = 0;
             while (i <= 6)
             {
-                Point[] t1 = {
+                Point[] t0 = {
                             new Point(0, 0),
                             new Point(50, 0),
                             new Point(50, 50),
                         };
                 g = pictureBox1.CreateGraphics();
-                g.DrawPolygon(pen1, t1);
+                g.DrawPolygon(pen1, t0);
 
-                Point[] t3 = {
+                Point[] t2 = {
                             new Point(50, 0),
                             new Point(100, 0),
                             new Point(100, 50),
                         };
                 g = pictureBox1.CreateGraphics();
-                g.DrawPolygon(pen1, t3);
+                g.DrawPolygon(pen1, t2);
 
-                Point[] t5 = {
+                Point[] t4 = {
                             new Point(100, 0),
                             new Point(150, 0),
                             new Point(150, 50),
                         };
                 g = pictureBox1.CreateGraphics();
-                g.DrawPolygon(pen1, t5);
+                g.DrawPolygon(pen1, t4);
 
-                Point[] t7 = {
+                Point[] t6 = {
                             new Point(150, 0),
                             new Point(200, 0),
                             new Point(200, 50),
                         };
                 g = pictureBox1.CreateGraphics();
-                g.DrawPolygon(pen1, t7);
+                g.DrawPolygon(pen1, t6);
 
-                Point[] t9 = {
+                Point[] t8 = {
                             new Point(200, 0),
                             new Point(250, 0),
                             new Point(250, 50),
                         };
                 g = pictureBox1.CreateGraphics();
-                g.DrawPolygon(pen1, t9);
+                g.DrawPolygon(pen1, t8);
 
                 Point[] t11 = {
                             new Point(250, 0),
@@ -87,6 +87,60 @@ namespace ImagePrintForm
                 g.DrawPolygon(pen1, t11);
 
                 i++;
+            }
+
+            int j = 0;
+            while (j <= 6)
+            {
+                Point[] t1 = {
+                            new Point(0, 50),
+                            new Point(0, 0),
+                            new Point(50, 50),
+                        };
+                g = pictureBox1.CreateGraphics();
+                g.DrawPolygon(pen2, t1);
+
+                Point[] t3 = {
+                            new Point(50, 50),
+                            new Point(50, 0),
+                            new Point(100, 50),
+                        };
+                g = pictureBox1.CreateGraphics();
+                g.DrawPolygon(pen2, t3);
+
+                Point[] t5 = {
+                            new Point(100, 50),
+                            new Point(100, 0),
+                            new Point(150, 50),
+                        };
+                g = pictureBox1.CreateGraphics();
+                g.DrawPolygon(pen2, t5);
+
+                Point[] t7 = {
+                            new Point(150, 50),
+                            new Point(150, 0),
+                            new Point(200, 50),
+                        };
+                g = pictureBox1.CreateGraphics();
+                g.DrawPolygon(pen2, t7);
+
+                Point[] t9 = {
+                            new Point(200, 50),
+                            new Point(200, 0),
+                            new Point(250, 50),
+                        };
+                g = pictureBox1.CreateGraphics();
+                g.DrawPolygon(pen2, t9);
+
+                Point[] t11 = {
+                            new Point(250, 50),
+                            new Point(250, 0),
+                            new Point(300, 50),
+                        };
+                g = pictureBox1.CreateGraphics();
+                g.DrawPolygon(pen2, t11);
+
+                j++;
             }
 
 
