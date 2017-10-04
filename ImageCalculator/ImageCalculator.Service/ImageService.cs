@@ -8,7 +8,8 @@ namespace ImageCalculator.Services
 
     public class ImageService
     {
-
+        // 
+        // TODO: THIS COULD BE A CENTRAL, PUBLIC API TO THE UI, OR PUT BEHIND AN HTTP WEB API.
     }
 
 }

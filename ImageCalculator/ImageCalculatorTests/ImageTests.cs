@@ -9,8 +9,11 @@ using System.Collections.Generic;
 namespace ImageCalculator.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class ImageTests
     {
+        //
+        // TODO: ADD MORE UNIT TESTS, MANY MORE!
+        //
         [TestMethod]
         public void Create_6x12_Matrix()
         {
