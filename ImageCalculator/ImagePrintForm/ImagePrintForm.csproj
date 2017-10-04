@@ -78,5 +78,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ImageCalculator.Service\ImageCalculator.Services.csproj">
+      <Project>{1bdd41a6-0d9a-4bdd-9c62-ed8aef1b3cdb}</Project>
+      <Name>ImageCalculator.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

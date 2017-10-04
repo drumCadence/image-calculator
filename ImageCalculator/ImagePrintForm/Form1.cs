@@ -3,16 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
+using ImageCalculator.Service.Models;
 
 
 namespace ImagePrintForm
 {
-    public class Vertex
-    {
-        public string Name { get; set; }
-        public Point[] Points { get; set; }
-        public Pen Pen { get; set; }
-    }
 
     public partial class Form1 : Form
     {
@@ -500,6 +495,12 @@ namespace ImagePrintForm
         private float TriangleWidth(float height)
         {
             return (float)(2 * height / Math.Sqrt(3));
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            var g = pictureBox1.CreateGraphics();
+            g.Clear(Color.WhiteSmoke);
         }
     }
 }
