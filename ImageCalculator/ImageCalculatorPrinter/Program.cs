@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace ImageCalculator.Printer
 {
-    public class Vertex
+    internal class Vertex
     {
         public string Name { get; set; }
         public int XCoordinate { get; set; }
