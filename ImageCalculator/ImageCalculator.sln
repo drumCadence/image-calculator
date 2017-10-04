@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{57501E9F-0
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagePrintForm", "ImagePrintForm\ImagePrintForm.csproj", "{C1F4F648-F802-44BB-B2CC-F5B7E200FEB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{1BDD41A6-0D9A-4BDD-9C62-ED8AEF1B3CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BDD41A6-0D9A-4BDD-9C62-ED8AEF1B3CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BDD41A6-0D9A-4BDD-9C62-ED8AEF1B3CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F4F648-F802-44BB-B2CC-F5B7E200FEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F4F648-F802-44BB-B2CC-F5B7E200FEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F4F648-F802-44BB-B2CC-F5B7E200FEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F4F648-F802-44BB-B2CC-F5B7E200FEB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
